@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Nwosu</title>
+    <link rel="stylesheet" href="soorsa.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav class="menu-container">
+            <!-- burger menu -->
+            <input type="checkbox" aria-label="Toggle menu" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!-- logo -->
+            <a href=" # " class="menu-logo">
+                <img src=" jona-sq2.png" alt="" />
+            </a>
+
+            <!-- menu items -->
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#about-me" class="services-nav"> About </a>
+                    </li>
+                    <li>
+                        <a href="#services" class="services-nav"> Services </a>
+                    </li>
+                    <li>
+                        <a href=" #skills " class="blog-nav"> Skills </a>
+                    </li>
+                    <li>
+                        <a href="#pricing" class="pricing-nav"> Pricing </a>
+                    </li>
+                    <li>
+                        <a href="#clients" class="shop-nav"> clients </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="  "> Chat me </a>
+                    </li>
+                    <li>
+                        <a href=""> Hire me </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>I'm <span class="auto-input"></span></h1>
+            <p>You can reach out to me if you need help making a website, web app or mobile app for you or your business.</p>
+            <a href="" class="call-to-action contact-btn" onclick="contact()">Contact me</a>
+            <a href="" class="call-to-action download-btn">Download CV</a>
+            <a href="">you dey mad</a>
+        </div>
+        <img src="me.png" class="user-img" alt="">
+
+    </div>
+    <div class="about-me section" id="about-me">
+        <div class="container c-left">
+            <h1>About Me</h1>
+            <p>
+                I am an experienced Back-end Python developer and a Fullstack web developer. I am a graduate of the Federal University of Technology, Owerri and have a bachelor's degree in Management Technology (Finance). I am an expert in Python programing language
+                and JavaScript and brilliant with the following frameworks and libraries Django, Flask, Rest-API, Node.js, React Js. I have four (4+) years experience working for <span>WonderHUB</span> as backend developer where i developed
+                APIs,web apps, websites and E-commerce website using <span class="python">Python</span>, <span class="django">Django</span> and <span class="flask">Flask</span>. i also gained developed and gained experience on the Frontend with CSS, Bootstrap,
+                TailwindCSS, React.JS.
+            </p>
+        </div>
+    </div>
+    <div class="services section" id="services">
+        <div class="services-container c-right">
+            <h1>My Services</h1>
+            <div class="service-wrapper">
+                <div class="service-card">
+                    <img class="service-card-img" src="{% static 'img/bg3.jpg' %}" alt="" />
+                    <div class="service-card-content">
+                        <h2>Web Development</h2>
+                        <p>
+                            Do you need a website, we create websites. Benefits of a website are legitmacy, improves marketing
+                        </p>
+                        <a href="#pricing">view pricing</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="{% static 'img/bg3.jpg' %}" alt="" />
+                    <div class="service-card-content">
+                        <h2>Web Development</h2>
+                        <p>
+                            Do you need a website, we create websites. Benefits of a website are legitmacy, improves marketing
+                        </p>
+                        <a href="#pricing">view pricing</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="{% static 'img/bg3.jpg' %}" alt="" />
+                    <div class="service-card-content">
+                        <h2>Web Development</h2>
+                        <p>
+                            Do you need a website, we create websites. Benefits of a website are legitmacy, improves marketing
+                        </p>
+                        <a href="#pricing">view pricing</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="{% static 'img/bg3.jpg' %}" alt="" />
+                    <div class="service-card-content">
+                        <h2>Web Development</h2>
+                        <p>
+                            Do you need a website, we create websites. Benefits of a website are legitmacy, improves marketing
+                        </p>
+                        <a href="#pricing">view pricing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills section" id="skills">
+        <div class="skill-container c-left">
+            <h1>My Skills</h1>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>Python</span>
+                    <span>90%</span>
+                </div>
+                <div class="bar">
+                    <div class="python-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>JavaScript</span>
+                    <span>75%</span>
+                </div>
+                <div class="bar">
+                    <div class="js-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>HTML</span>
+                    <span>99%</span>
+                </div>
+                <div class="bar">
+                    <div class="html-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>CSS</span>
+                    <span>90%</span>
+                </div>
+                <div class="bar">
+                    <div class="css-bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-container c-left">
+            <h1 class="tech">Technologies</h1>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>Django</span>
+                    <span>90%</span>
+                </div>
+                <div class="bar">
+                    <div class="django-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>Flask</span>
+                    <span>90%</span>
+                </div>
+                <div class="bar">
+                    <div class="flask-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>REST APIs</span>
+                    <span>80%</span>
+                </div>
+                <div class="bar">
+                    <div class="rest-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>Node</span>
+                    <span>75%</span>
+                </div>
+                <div class="bar">
+                    <div class="node-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>React Js</span>
+                    <span>70%</span>
+                </div>
+                <div class="bar">
+                    <div class="react-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>Next Js</span>
+                    <span>60%</span>
+                </div>
+                <div class="bar">
+                    <div class="nxt-bar"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="pricing section" id="pricing">
+        <div class="pricing-container c-right">
+            <h1>Pricing</h1>
+            <div class="pricing-card-container">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">Personal / Portfolio Website</div>
+                    <ul>
+                        <li>6 pages max</li>
+                        <li>free logo Design</li>
+                        <li>1 year free maintainace</li>
+                        <li>SEO</li>
+                        <li>fast page load</li>
+                        <li>site security</li>
+                        <li>free user-interface and graphic design</li>
+                    </ul>
+                    <div class="price">₦ 99,000.00</div>
+                    <div class="price-btn-container">
+                        <div class="price-call-btn">call</div>
+                        <div class='price-chat-btn'>chat</div>
+                        <div class="price-order-btn">order</div>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">Bussiness / Company Website</div>
+                    <ul>
+                        <li>6 pages max</li>
+                        <li>free logo Design</li>
+                        <li>1 year free maintainace</li>
+                        <li>SEO</li>
+                        <li>fast page load</li>
+                        <li>site security</li>
+                        <li>free user-interface and graphic design</li>
+                    </ul>
+                    <div class="price">₦ 99,000.00</div>
+                    <div class="price-btn-container">
+                        <div class="price-call-btn">call</div>
+                        <div class="price-chat-btn">chat</div>
+                        <div class="price-order-btn">order</div>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">E-commerce / Online Store</div>
+                    <ul>
+                        <li>6 pages max</li>
+                        <li>free logo Design</li>
+                        <li>1 year free maintainace</li>
+                        <li>SEO</li>
+                        <li>fast page load</li>
+                        <li>site security</li>
+                        <li>free user-interface and graphic design</li>
+                    </ul>
+                    <div class="price">₦ 99,000.00</div>
+                    <div class="price-btn-container">
+                        <div class="price-call-btn">call</div>
+                        <div class="price-chat-btn">chat</div>
+                        <div class="price-order-btn">order</div>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">CMS, Blogs / Media Website</div>
+                    <ul>
+                        <li>6 pages max</li>
+                        <li>free logo Design</li>
+                        <li>1 year free maintainace</li>
+                        <li>SEO</li>
+                        <li>fast page load</li>
+                        <li>site security</li>
+                        <li>free user-interface and graphic design</li>
+                    </ul>
+                    <div class="price">₦ 99,000.00</div>
+                    <div class="price-btn-container">
+                        <div class="price-call-btn">call</div>
+                        <div class="price-chat-btn">chat</div>
+                        <div class="price-order-btn">order</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="clientsec section" id="clients">
+        <div class="clients-container">
+            <h1>My Clients</h1>
+            <div class="clients-slide-container">
+                <div class="clients-slide"><img src=" {% static 'img/bg.jpg' %} " alt="" class="clients"></div>
+                <div class="clients-slide"><img src=" {% static 'img/logo/wonderhub.png' %} " alt="" class="clients"></div>
+                <div class="clients-slide"><img src=" {% static 'img/logo/wonderstore.png' %} " alt="" class="clients"></div>
+                <div class="clients-slide"><img src=" {% static 'img/logo/wonderstore2.png' %} " alt="" class="clients"></div>
+                <div class="clients-slide"><img src=" {% static 'img/logo/thumb-up.png' %} " alt="" class="clients"></div>
+                <div class="clients-slide"><img src=" {% static 'img/bg.jpg' %} " alt="" class="clients"></div>
+                <div class="clients-slide"><img src=" {% static 'img/bg2.jpg' %} " alt="" class="clients"></div>
+                <div class="clients-slide"><img src=" {% static 'img/bg3.jpg' %} " alt="" class="clients"></div>
+                <div class="clients-slide"><img src=" {% static 'img/bg4.jpg' %} " alt="" class="clients"></div>
+                <div class="clients-slide"><img src=" {% static 'img/wonderhubblue.png' %} " alt="" class="clients"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Jonathan Nwosu", "Web Developer", "Fullstack Developer", "UI Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+
+</html>
