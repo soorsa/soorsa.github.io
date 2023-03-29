@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Nwosu</title>
+    <link rel="stylesheet" href="soorsa.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav class="menu-container">
+            <!-- burger menu -->
+            <input type="checkbox" aria-label="Toggle menu" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!-- logo -->
+            <a href="  " class="menu-logo">
+                <img src=" jona-sq2.png" alt="" />
+            </a>
+
+            <!-- menu items -->
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#about-me" class="services-nav"> About </a>
+                    </li>
+                    <li>
+                        <a href="#services" class="services-nav"> Services </a>
+                    </li>
+                    <li>
+                        <a href=" #skills " class="blog-nav"> Skills </a>
+                    </li>
+                    <li>
+                        <a href="#pricing" class="pricing-nav"> Pricing </a>
+                    </li>
+                    <li>
+                        <a href="#clients" class="shop-nav"> clients </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a onclick="contactPopup()"> Chat me </a>
+                    </li>
+                    <li>
+                        <a href="tel:+2347045591360"> Hire me </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>I'm <span class="auto-input"></span></h1>
+            <p>You can reach out to me if you need help making a website, web app or mobile app for you or your business.</p>
+            <a class="call-to-action contact-btn" onclick="contactPopup()">Contact me</a>
+            <a href="" class="call-to-action download-btn" download="Jonathan_cv">Download CV</a>
+        </div>
+        <img src="me.png" class="user-img" alt="">
+
+    </div>
+    <div class="popup-container">
+        <div class="contact-popup">
+            <a class="close-popup" onclick="closePopup()">&times;</a>
+            <p>Chat me on any platform</p>
+            <div class="social-btns">
+                <a href="" class="whatsapp-btn">
+                    <img src="whatsapp.svg" alt="">
+                </a>
+                <a href="" class="insta-btn">
+                    <img src="instagram.svg" alt="">
+                </a>
+                <a href="" class="twitter-btn">
+                    <img src="twitter.svg" alt="">
+                </a>
+                <a href="tel:+2347045591360" class="call-btn">
+                    <img src="phone-call.svg" alt="">
+                </a>
+                <form class="email-btn" action="mailto:kingsoorsa@gmail.com" enctype="text/plain" method="post">
+                    <input type="text" name="message" id="mail-msg" placeholder="send a mail">
+                    <button type="submit" value="" class="send-mail"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-me section" id="about-me">
+        <div class="container c-left">
+            <h1>About Me</h1>
+            <p>
+                I am an experienced Back-end Python developer and a Fullstack web developer. I am a graduate of the Federal University of Technology, Owerri and have a bachelor's degree in Management Technology (Finance). I am an expert in Python programing language
+                and JavaScript and brilliant with the following frameworks and libraries Django, Flask, Rest-API, Node.js, React Js. I have four (4+) years experience working for <span>WonderHUB</span> as backend developer where i developed
+                APIs,web apps, websites and E-commerce website using <span class="python">Python</span>, <span class="django">Django</span> and <span class="flask">Flask</span>. i also gained developed and gained experience on the Frontend with CSS, Bootstrap,
+                TailwindCSS, React.JS.
+            </p>
+        </div>
+    </div>
+    <div class="services section" id="services">
+        <div class="services-container c-right">
+            <h1>My Services</h1>
+            <div class="service-wrapper">
+                <div class="service-card">
+                    <img class="service-card-img" src="gif-4mb.gif" alt="" />
+                    <div class="service-card-content">
+                        <h2>Web Development</h2>
+                        <p>
+                            Do you need a website, we create websites. Benefits of a website are legitmacy, improves marketing
+                        </p>
+                        <a href="#pricing">view pricing</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="windows.gif" alt="" />
+                    <div class="service-card-content">
+                        <h2>Web Hosting/Maintainace</h2>
+                        <p>
+                            Do you need a website, we create websites. Benefits of a website are legitmacy, improves marketing
+                        </p>
+                        <a href="#pricing">view pricing</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="7c714cab765d96d1dcecfc963d2b4c26.gif" alt="" />
+                    <div class="service-card-content">
+                        <h2>Mobile & Desktop Development</h2>
+                        <p>
+                            Do you need a website, we create websites. Benefits of a website are legitmacy, improves marketing
+                        </p>
+                        <a href="#pricing">view pricing</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="video-graphic-1.gif" alt="" />
+                    <div class="service-card-content">
+                        <h2>Branding and Graphics Design</h2>
+                        <p>
+                            We help in creating a strong , positive perception of your company and its prodicts in your customer's mind
+                        </p>
+                        <a href="#pricing">view pricing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills section" id="skills">
+        <div class="skill-container c-left">
+            <h1>My Skills</h1>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>Python</span>
+                    <span>90%</span>
+                </div>
+                <div class="bar">
+                    <div class="python-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>JavaScript</span>
+                    <span>75%</span>
+                </div>
+                <div class="bar">
+                    <div class="js-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>HTML</span>
+                    <span>99%</span>
+                </div>
+                <div class="bar">
+                    <div class="html-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>CSS</span>
+                    <span>90%</span>
+                </div>
+                <div class="bar">
+                    <div class="css-bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-container c-left">
+            <h1 class="tech">Technologies</h1>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>Django</span>
+                    <span>90%</span>
+                </div>
+                <div class="bar">
+                    <div class="django-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>Flask</span>
+                    <span>90%</span>
+                </div>
+                <div class="bar">
+                    <div class="flask-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>REST APIs</span>
+                    <span>80%</span>
+                </div>
+                <div class="bar">
+                    <div class="rest-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>Node</span>
+                    <span>75%</span>
+                </div>
+                <div class="bar">
+                    <div class="node-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>React Js</span>
+                    <span>70%</span>
+                </div>
+                <div class="bar">
+                    <div class="react-bar"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="details">
+                    <span>Next Js</span>
+                    <span>60%</span>
+                </div>
+                <div class="bar">
+                    <div class="nxt-bar"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="pricing section" id="pricing">
+        <div class="pricing-container c-right">
+            <h1>Pricing</h1>
+            <div class="pricing-card-container">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">Personal / Portfolio Website</div>
+                    <ul>
+                        <li>6 pages (max)</li>
+                        <li>1 year free maintainace</li>
+                        <li>SEO</li>
+                        <li>fast page loading</li>
+                        <li>site security</li>
+                        <li>Responsive design</li>
+                        <li>free user-interface and graphic design</li>
+                    </ul>
+                    <div class="price">₦ 49,999.99</div>
+                    <div class="price-btn-container">
+                        <a href="tel:+2347045591360" class="price-call-btn">call</a>
+                        <a class='price-chat-btn' onclick="contactPopup()">chat</a>
+                        <a class="price-order-btn">order</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">Bussiness / Cooperate Website</div>
+                    <ul>
+                        <li>20 pages (max)</li>
+                        <li>Free Admin site</li>
+                        <li>free logo Design</li>
+                        <li>1 year free maintainace</li>
+                        <li>SEO</li>
+                        <li>fast page load</li>
+                        <li>site security</li>
+                        <li>Responsive design</li>
+                        <li>free user-interface and graphic design</li>
+                    </ul>
+                    <div class="price">₦ 99,999.99</div>
+                    <div class="price-btn-container">
+                        <a href="tel:+2347045591360" class="price-call-btn">call</a>
+                        <a class="price-chat-btn" onclick="contactPopup()">chat</a>
+                        <a class="price-order-btn">order</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">E-commerce / Online Store</div>
+                    <ul>
+                        <li>Unlimited pages</li>
+                        <li>Free Admin site</li>
+                        <li>Free inventory management system</li>
+                        <li>free logo Design</li>
+                        <li>1 year free maintainace</li>
+                        <li>SEO</li>
+                        <li>fast page load</li>
+                        <li>site security</li>
+                        <li>Responsive design</li>
+                        <li>free user-interface and graphic design</li>
+                    </ul>
+                    <div class="price">₦ 149,999.99</div>
+                    <div class="price-btn-container">
+                        <a href="tel:+2347045591360" class="price-call-btn">call</a>
+                        <a class="price-chat-btn" onclick="contactPopup()">chat</a>
+                        <a class="price-order-btn">order</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">CMS, Blogs / Media Website</div>
+                    <ul>
+                        <li>Unlimited pages</li>
+                        <li>Free Admin site</li>
+                        <li>unlimited Users</li>
+                        <li>free logo Design</li>
+                        <li>1 year free maintainace</li>
+                        <li>SEO</li>
+                        <li>fast page load</li>
+                        <li>site security</li>
+                        <li>Responsive design</li>
+                        <li>free user-interface and graphic design</li>
+                    </ul>
+                    <div class="price">₦ 69,999.00 - 399,999.99</div>
+                    <div class="price-btn-container">
+                        <a href="tel:+2347045591360" class="price-call-btn">call</a>
+                        <a class="price-chat-btn" onclick="contactPopup()">chat</a>
+                        <a class="price-order-btn">order</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="clientsec section" id="clients">
+        <div class="clients-container">
+            <h1>My Clients</h1>
+            <div class="clients-slide-container">
+                <div class="clients-slide"><img src="MOA-logo.png" alt="" class="clients"></div>
+                <div class="clients-slide"><img src="ama-blog-logo.png" alt="" class="clients"></div>
+                <div class="clients-slide"><img src="trustcard-logo1.png" alt="" class="clients"></div>
+                <div class="clients-slide"><img src="darlene-logo.png" alt="" class="clients"></div>
+                <div class="clients-slide"><img src="the_box_Logo.png" alt="" class="clients"></div>
+                <div class="clients-slide"><img src="nimic-logo.png" alt="" class="clients"></div>
+                <div class="clients-slide"><img src="lifestyle-logo.png" alt="" class="clients"></div>
+                <div class="clients-slide"><img src="lmnt-logo.png" alt="" class="clients"></div>
+                <div class="clients-slide"><img src="wonderhub-logo.png" alt="" class="clients"></div>
+                <div class="clients-slide"><img src="wonderstore2.png" alt="" class="clients"></div>
+
+            </div>
+            <p>I create Happy Clients </p>
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer-logo">
+            <a href=""><img src=" jona-sq2.png" alt="" /></a>
+        </div>
+        <div class="footer-desc">I create Website, mobile and Desktop apps</div>
+        <hr>
+        <div class="footer-contact">
+            <ul class="">Contact Me
+                <li> <img src="facebook.svg" alt=""> Facebook</li>
+                <li> <img src="instagram.svg" alt=""> Instagram</li>
+                <li> <img src="twitter.svg" alt=""> Twitter</li>
+                <li> <img src="whatsapp.svg" alt=""> Whatsapp</li>
+                <li> <img src="Gmail.svg" alt=""> Gmail</li>
+            </ul>
+
+        </div>
+        <hr>
+        <div class="copyright">Jonathan Nwosu </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Jonathan Nwosu", "Web Developer", "Fullstack Developer", "UI Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+
+        function contactPopup() {
+            document.querySelector('.popup-container').classList.add('active');
+        };
+
+        function closePopup() {
+            document.querySelector('.popup-container').classList.remove('active');
+        };
+    </script>
+
+</body>
+
+</html>
