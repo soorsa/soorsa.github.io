@@ -260,7 +260,8 @@ body {
 
 .user-img {
     width: 50%;
-    height: 500px;
+    aspect-ratio:3/2;
+    object-fit: contain;
     position: absolute;
     right: 8%;
     top: 10%;
